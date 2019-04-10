@@ -14,11 +14,11 @@ function LetterGuess(value) {
                     return this.letter;
                 }
             }
-        }
+        };
         this.guess = function(guess) {
             if(guess === this.letter) {
                 this.guessed = true;
             }
-        }
+        };
 }
-module.exports = Letter;
+module.exports = LetterGuess;
